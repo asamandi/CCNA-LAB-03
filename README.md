@@ -1,3 +1,6 @@
+TOPOLOGY
+R1 —— R2 —— R3
+
 IP Addressing Plan
 
 Link R1–R2
