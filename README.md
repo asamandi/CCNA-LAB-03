@@ -1,6 +1,7 @@
 CCNA LAB 3 — Static Routing (Small 3-Router Lab)
 
 TOPOLOGY
+
 R1 —— R2 —— R3
 
 
