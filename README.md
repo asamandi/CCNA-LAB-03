@@ -1,25 +1,23 @@
 CCNA LAB 3 — Static Routing (Small 3-Router Lab)
 
-TOPOLOGY
-
-R1 —— R2 —— R3
+TOPOLOGY  ----   R1 —— R2 —— R3
 
 
 IP Addressing Plan
-
+------------------
 🔸 Link R1–R2
 R1 g0/0 → 10.0.12.1/24
 R2 g0/0 → 10.0.12.2/24
 
 🔸 Link R2–R3
-
+------------------
 R2 g0/1 → 10.0.23.2/24
 R3 g0/0 → 10.0.23.3/24
 
 🔸 Loopback on R1 (acts as LAN)
-
+------------------
 R1 lo0 → 1.1.1.1/32
 
 🔸 Loopback on R3
-
+------------------
 R3 lo0 → 3.3.3.3/32
