@@ -1,4 +1,4 @@
-TOPOLOGY -----  R1 —— R2 —— R3
+TOPOLOGY   R1 —— R2 —— R3
 
 IP Addressing Plan
 
