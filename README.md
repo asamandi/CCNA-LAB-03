@@ -1,11 +1,11 @@
 CCNA-Static-Routing-Lab
---
+---
 
-## TOPOLOGY
+### TOPOLOGY
 
 R1 —— R2 —— R3
 
-## IP Addressing Plan
+### IP Addressing Plan
 
 Link R1–R2
 
@@ -19,11 +19,11 @@ R2 g0/1 → 10.0.23.2/24
 R3 g0/0 → 10.0.23.3/24
 
 
-## Loopback on R1 (acts as LAN)
+### Loopback on R1 (acts as LAN)
 
 R1 lo0 → 1.1.1.1/32
 
 
-## Loopback on R3
+### Loopback on R3
 
 R3 lo0 → 3.3.3.3/32
