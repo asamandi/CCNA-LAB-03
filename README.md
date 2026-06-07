@@ -1,4 +1,4 @@
-CCNA-Device-Setup
+CCNA-Static-Routing-Lab
 --
 
 TOPOLOGY
