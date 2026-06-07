@@ -1,0 +1,37 @@
+## Verification Commands
+
+Run on all routers:
+
+show ip interface brief
+
+show ip route
+
+
+Run on R1:
+
+ping 3.3.3.3
+
+
+Run on R3:
+
+ping 1.1.1.1
+
+
+Run on R2:
+
+ping 1.1.1.1
+
+ping 3.3.3.3
+
+
+Expected result:
+
+R1 <----> R2 <----> R3
+
+R1 can ping 3.3.3.3
+
+R3 can ping 1.1.1.1
+
+R2 can ping both loopbacks
+
+All pings succeed
